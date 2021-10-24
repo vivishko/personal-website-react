@@ -1,0 +1,51 @@
+.footer{
+    background-color: #000;
+    color:#fff;
+    padding: 50px 0; 
+}
+.footer_row{
+    padding: 0 5%;
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-around;
+    align-items: center;
+    /*align-content: stretch;*/
+} 
+.footer_item{ 
+    padding: 0 10px; 
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: column;
+    /*flex-wrap: wrap;*/ 
+}
+.footer_header{
+    color:#fff;
+    text-decoration: none;
+}
+.footer_button{
+    display: block;
+    box-sizing: border-box; 
+    background: #fff;  
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #1240AB;
+    border-radius: 4px;
+    color: #1240AB;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+}
+.footer_button:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.footer_button:active{
+    background: #fff; /* запасной цвет для старых браузеров */
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    color: #fff;
+}
+.footer_mail::placeholder{
+    color: rgba(255,255,255,0.8);
+}

@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App value={'qwe'} />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
