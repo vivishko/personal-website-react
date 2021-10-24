@@ -1,0 +1,12 @@
+.parent{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em; 
+    color: black;
+    background-color: #fff;
+    margin: 0px; 
+    padding: 0px; 
+} 
+button:not(:disabled) {
+    cursor: pointer;
+}
+
