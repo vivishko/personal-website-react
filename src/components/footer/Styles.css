@@ -1,42 +1,68 @@
 .footer{
     background-color: #000;
     color:#fff;
-    padding: 50px 0; 
+    padding: 30px 0; 
 }
 .footer_row{
-    padding: 0 5%;
+    min-height: 200px;
+    padding: 0 10px;
+    font-size: 1.5rem;
     display: -webkit-flex; 
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
-    /*justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
-    /*align-content: stretch;*/
+    /* align-content: stretch; */
+    flex-grow: 1;
 } 
 .footer_item{ 
+    margin: 10px 0;
     padding: 0 10px; 
+    min-width: 40%;
+    max-width: 100%;
     display: -webkit-flex; 
     display: flex; 
     flex-direction: column;
-    /*flex-wrap: wrap;*/ 
+    /*flex-wrap: wrap;*/  
+    /* flex-basis: 260px; */
 }
 .footer_header{
     color:#fff;
+    font-size: 1.75rem;
     text-decoration: none;
+    /* text-align: left; */
+    padding: 20px 10px;
+    /* margin: auto; */
+}
+.footer_text{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.footer_buttons{
+    margin: 20px 0; 
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: row;
 }
 .footer_button{
+    margin: 10px;
+    padding: 20px 30px;
     display: block;
     box-sizing: border-box; 
     background: #fff;  
     background: rgba(255, 255, 255, 0);
-    border: 1px solid #1240AB;
+    border: 1px solid #fff;
     border-radius: 4px;
-    color: #1240AB;
+    color: #fff;
     text-align: center;
-    font-weight: bold;
-    outline: none;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    /* outline: none; */
 }
 .footer_button:hover{
+    background: #fff; /* запасной цвет для старых браузеров */
+    background: rgba(255, 255, 255, 0.2);
     border: 1px solid #fff;
     color: #fff;
 }
@@ -48,4 +74,24 @@
 }
 .footer_mail::placeholder{
     color: rgba(255,255,255,0.8);
+} 
+
+
+.ol{
+    /* counter-reset: item; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer_list li{
+    line-height: 2rem;
+    display:block;
+    text-decoration: none;
+    /* text-align: -webkit-match-parent; */
+}
+.footer_list::before{
+    content: counter(item) " ";
+    counter-increment: item;
+    font-weight: 600;
+    margin: 0 20px 0 0;
 }
