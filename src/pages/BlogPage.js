@@ -1,6 +1,6 @@
 export function BlogPage() {
   return (
-    <div class="parent"> 
+    <div class="main"> 
     </div>
     )
 }

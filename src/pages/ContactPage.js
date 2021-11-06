@@ -1,6 +1,6 @@
 export function ContactPage() {
   return (
-    <div class="parent"> 
+    <div class="main"> 
     </div>
     )
 }

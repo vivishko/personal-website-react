@@ -3,13 +3,13 @@ import { Works } from '../components/works/Works';
 import { Resume } from '../components/resume/Resume';
 import { Blog } from '../components/blog/Blog'; 
 
-export function HomePage() {
+export function HomePage({setPage}) {
   return ( 
       <div class="main">
-        <About />
-        <Works />
-        <Resume />
-        <Blog />
+        <About setPage={setPage}/>
+        <Works setPage={setPage}/>
+        <Resume setPage={setPage}/>
+        <Blog setPage={setPage}/>
       </div>  
   )
 }
