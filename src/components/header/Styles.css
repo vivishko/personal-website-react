@@ -75,6 +75,9 @@
   border: 0px solid #1240AB;
   color: #1240AB;
 }
+.nav_main{
+  font-size: 1.75rem;
+}
 
 @media (max-width: 819px){
   .navigation_right{

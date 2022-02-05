@@ -1,9 +1,18 @@
 .about{
     padding: 20px 0 30px;
     background-color: #3a86ff;
-    justify-content: center;
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
-
+.about_text{
+    margin: 30px 20px 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
 .about_button_block{
     margin: 20px 0; 
     display: -webkit-flex; 
