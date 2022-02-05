@@ -1,0 +1,25 @@
+.my_works{
+    padding: 20px 0 30px;
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.works_main-text{
+    margin: 30px 20px 10px;
+    font-size: 1.5rem;
+}
+.works_parts{
+    margin:20px 0px;
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.works_part{
+    margin:10px 20px;
+}

@@ -1,11 +1,36 @@
 .parent{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.25em; 
+    font-size: 1em; 
     color: black;
     background-color: #fff;
     margin: 0px; 
     padding: 0px; 
 } 
+.buttons{
+    margin: 10px;
+    padding: 20px 30px;
+    display: block;
+    box-sizing: border-box; 
+    text-align: center;
+    font-size: 1.5rem;
+    background: #fff;  
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+}
+.buttons:hover{
+    background: #fff; /* запасной цвет для старых браузеров */
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    color: #fff;
+}
+.buttons:active{
+    background: #fff; /* запасной цвет для старых браузеров */
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    color: #fff;
+}
 button:not(:disabled) {
     cursor: pointer;
 }

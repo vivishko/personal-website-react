@@ -15,12 +15,12 @@ function App() {
   return ( 
     <div class="parent">
       <Header setPage={setPage} /> 
-      { page === 'home' && <HomePage />}
-      { page === 'about' && <AboutPage />}
-      { page === 'projects' && <ProjectsPage />}
-      { page === 'blog' && <BlogPage />}
-      { page === 'contacts' && <ContactPage />}
-      <Footer />
+      { page === 'home' && <HomePage setPage={setPage} />}
+      { page === 'about' && <AboutPage setPage={setPage} />}
+      { page === 'projects' && <ProjectsPage setPage={setPage} />}
+      { page === 'blog' && <BlogPage setPage={setPage} />}
+      { page === 'contacts' && <ContactPage setPage={setPage} />}
+      <Footer setPage={setPage} />
     </div>
   );
 }

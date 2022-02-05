@@ -1,51 +1,79 @@
 .footer{
     background-color: #000;
     color:#fff;
-    padding: 50px 0; 
+    padding: 30px 0; 
 }
 .footer_row{
-    padding: 0 5%;
-    display: -webkit-flex; 
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: wrap;
-    /*justify-content: space-around;
-    align-items: center;
-    /*align-content: stretch;*/
-} 
-.footer_item{ 
-    padding: 0 10px; 
+    min-height: 200px;
+    padding: 0 10px;
+    font-size: 1.5rem;
     display: -webkit-flex; 
     display: flex; 
     flex-direction: column;
-    /*flex-wrap: wrap;*/ 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: stretch; */
+    /* flex-grow: 1;*/
+} 
+.footer_item{ 
+    margin: 10px 0;
+    padding: 0 10px; 
+    min-width: 50%;
+    max-width: 100%;
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: row;
+    /*flex-wrap: wrap;*/  
+    /* flex-basis: 260px; */
+}
+.footer_texts{
+
 }
 .footer_header{
     color:#fff;
+    font-size: 1.75rem;
     text-decoration: none;
+    /* text-align: left; */
+    padding: 20px 10px;
+    /* margin: auto; */
+}
+.footer_text{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.footer_buttons{
+    margin: 20px 0; 
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: row;
 }
 .footer_button{
-    display: block;
-    box-sizing: border-box; 
     background: #fff;  
     background: rgba(255, 255, 255, 0);
-    border: 1px solid #1240AB;
+    border: 1px solid #fff;
     border-radius: 4px;
-    color: #1240AB;
-    text-align: center;
-    font-weight: bold;
-    outline: none;
+    color: #fff;
 }
 .footer_button:hover{
-    border: 1px solid #fff;
-    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
 }
 .footer_button:active{
-    background: #fff; /* запасной цвет для старых браузеров */
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #fff;
-    color: #fff;
+    background: rgba(255, 255, 255, 0.6);
+} 
+
+
+.footer_other-contacts{
+    padding: 20px 10px;
+    margin: 40px 10px 10px; 
+    font-size: 1.25rem;
+    text-decoration: none;
 }
-.footer_mail::placeholder{
-    color: rgba(255,255,255,0.8);
+a{
+    border-bottom: #fff;
+    color:inherit;
+}
+a:hover{
+    border-bottom: #3a86ff;
+    color:#3a86ff;
 }

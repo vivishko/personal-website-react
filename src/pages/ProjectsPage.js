@@ -1,6 +1,6 @@
 export function ProjectsPage() {
   return (
-    <div class="parent"> 
+    <div class="main"> 
     </div>
     )
 }
