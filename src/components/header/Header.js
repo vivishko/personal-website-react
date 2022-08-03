@@ -5,8 +5,8 @@ export function Header({setPage}) {
     <div class="header"> 
       <div class="header_row nav_bar">
         <div class="nav_left">
-          {/* <NavigationButton setPage={setPage} pageName='home' buttonClass="nav_main nav_buttons" text="Viola Zy" /> */}
-          <button type="button" onClick={() => setPage('home')} class="nav_main nav_buttons">Viola Zy</button>
+          {/* <NavigationButton setPage={setPage} pageName='home' buttonClass="nav_main nav_buttons" text="Viola Blablabla" /> */}
+          <button type="button" onClick={() => setPage('home')} class="nav_main nav_buttons">Viola Blu</button>
         </div>
         <button type="button" class="nav_burger" id="nav_click"></button>
         <div class="nav_right" id="nav_r">

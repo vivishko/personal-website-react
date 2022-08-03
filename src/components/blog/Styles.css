@@ -1,0 +1,21 @@
+.blog-container{
+    /*
+    display: -webkit-flex; 
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    */
+
+    position: relative;
+    display: grid;
+    grid-gap: 4vmin;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 4vmin 0;
+}
+.blog_card{
+    position: relative;
+    display: -webkit-flex; 
+    display: flex; 
+    flex-flow: column wrap;
+}
