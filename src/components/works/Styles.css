@@ -8,11 +8,19 @@
     align-items: center;
 }
 .works_main-text{
-    margin: 30px 20px 10px;
+    margin: 30px 20px;
     font-size: 1.5rem;
 }
 .works_parts{
     margin:20px 0px;
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.works_line{
     display: -webkit-flex; 
     display: flex; 
     flex-direction: row;
