@@ -13,13 +13,13 @@ function App() {
   const [page,setPage] = useState('home')
   console.log(page)
   return ( 
-    <div class="parent">
+    <div class="parent white-background black-text">
       <Header setPage={setPage} /> 
-      { page === 'home' && <HomePage setPage={setPage} />}
+      {/* { page === 'home' && <HomePage setPage={setPage} />}
       { page === 'about' && <AboutPage setPage={setPage} />}
       { page === 'projects' && <ProjectsPage setPage={setPage} />}
       { page === 'blog' && <BlogPage setPage={setPage} />}
-      { page === 'contacts' && <ContactPage setPage={setPage} />}
+      { page === 'contacts' && <ContactPage setPage={setPage} />} */}
       <Footer setPage={setPage} />
     </div>
   );
